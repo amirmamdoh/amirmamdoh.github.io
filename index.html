@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>السيرة الذاتية - أمير ممدوح</title>
     <style>
+        /* تحسين الخطوط وألوان الخلفية */
         body {
             font-family: 'Arial', sans-serif;
             background-color: #F5F5F7;
@@ -16,28 +17,37 @@
             padding: 20px;
             max-width: 800px;
         }
+        
+        /* تحسين العناوين */
         h1, h2 {
             color: #1D1D1F;
         }
+        
+        /* تنسيق الأقسام */
         .section {
             margin-bottom: 20px;
         }
+        
         .section-title {
             background-color: #1D1D1F;
             color: white;
             padding: 10px;
             border-radius: 5px;
         }
+        
         .section-content {
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 5px;
             background-color: #FFFFFF;
         }
+        
+        /* تنسيق الأزرار */
         .buttons {
             margin-bottom: 20px;
             text-align: left;
         }
+        
         button {
             padding: 10px;
             margin-right: 10px;
@@ -47,8 +57,25 @@
             border-radius: 5px;
             cursor: pointer;
         }
+        
         button:hover {
             background-color: #6E6E73;
+        }
+        
+        /* إضافة استجابة للشاشات الصغيرة */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .buttons {
+                text-align: center;
+            }
+            
+            button {
+                margin-bottom: 10px;
+                width: 100%;
+            }
         }
     </style>
 </head>
